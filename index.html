@@ -9,61 +9,54 @@
 
 <head>
         <meta charset="utf-8" />
-        <title>Unit 2</title>
+        <title>Unit 4</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
-                integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
 
+       
+        <!--BootStrap4  CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+         <!--Google Fonts-->
+         <link href="https://fonts.googleapis.com/css?family=Arimo|Roboto|Sarabun" rel="stylesheet">
+        <!--Custom CSS-->
         <link rel="stylesheet" type="text/css" media="screen" href="custom.css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
 </head>
 
 <body>
-        <div class="container-fluid">
-                <header>
-                        <div>
-                                <img src="logoElim.png" id="Logo" alt="ElimLogo" />
-                                <a>Elim Ministries</a>
-                        </div>
+      <nav id="navBar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+          <a href="#" class="navbar-brand">Elim Ministries</a> 
 
-                        <!--Navigation -->
-                        <nav>
-                                <!--Unordered List-->
-                                <ul class="navList">
-                                        <li><a href="index.html" class="Active">Home</a></li>
-                                        <li><a href="./pages/services.html">Services</a></li>
-                                        <li><a href="./pages/services.html">About Us</a></li>
-                                        <li><a href="./pages/gallery.html">Gallery</a></li>
-                                        <li><a href="./pages/contactUs.html">Contact Us</a></li>
-                                </ul>
-                        </nav>
-                </header>
-                <section>
-                        <article>
-                                <h1 class="col-md-6">Who we are</h1>
-                                <p class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacus
-                                        augue, aliquam nec
-                                        pulvinar eget, feugiat at ex. Etiam tincidunt tincidunt erat ac feugiat. Cras
-                                        ac nisl
-                                        elementum, auctor tortor at, porttitor eros. Ut elit nunc, aliquet at lectus
-                                        vitae,
-                                        aliquam molestie dui. Cras rutrum eu nisi eu rhoncus. Proin mollis nulla mi,
-                                        eleifend
-                                        malesuada nisl consectetur eget. Suspendisse sed tellus sed nibh lacinia
-                                        rutrum. Fusce
-                                        quis libero convallis nibh interdum mattis a sed ex..</p>
-                        </article>
+          <!--button to collapse navbar-->
+          <!--data targets the navigation Links with id navLinks-->
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle nav Links">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Navigation Links-->
+          <div class="collapse navbar-collapse" id="navLinks" >
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a href="" class="nav-link">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Services</a>
+                </li>
+                  
+              </ul>
+          </div>
+      </nav> 
 
+        
 
-                </section>
-                <footer>
-                        <p>Elim Ministries(CopyRight.)</p>
-                </footer>
-
-        </div>
-
-
-
+<!--BootStrap4 Scripts-->
+<!--This is optional for the project's intention-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 
 </html>

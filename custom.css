@@ -1,104 +1,19 @@
-#Logo {
-    width: 5rem;
-    background: #CCCCCC;
-    border-radius: 50px;
-}
-#pastor{
-    width: 20rem;
-}
-#gallery2{
-    width: 20rem;
-} 
-#gallery3 {
-    width: 20rem;
-}
-#Map1{
-    width: 20rem;
-}
-#table{
-    align-content: center;
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-#service1{
-    width: 100%;
-}
-#service2{
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
 body {
-    background-image: url(./images/background3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    background: #8ae677;
+    font-family: 'Arimo','Roboto','Sarabun',sans-serif;
+   
+}
+#navBar .navbar-brand {
+    color: #000000;
 }
 
-ul.navList {
-    list-style-type: none;
-    
-
+#navBar {
+    font-size: 2rem;
+    font-weight: 100;
 }
-
-ul.navList li {
-    float: left;
+#navBar .nav-link {
+    color: #0010f1;
 }
-
-ul.navList li a {
-    display: block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-decoration: none;
-    padding: 5px 10px 5px 10px;
-
-}
-
-ul.navList li a:hover:not(.active) {
-    background-color: rgb(134, 201, 255);
-}
-
-ul.navList li a.active {
-    background-color: #CCCCCC;
-    color: #333
-}
-
-section {
-    border: #333;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    padding: 80px 10px 10px 10px;
-}
-
-article {
-    border: #333;
-    padding: 10px;
-}
-
-ul.services li {
-    list-style-type: none;
-}
-
-ul.contact li {
-    list-style-type: none;
-}
-
-footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    color: white;
-    text-align: center;
+#navBar .nav-link:hover {
+    color: #fffd9f;
 }
